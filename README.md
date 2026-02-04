@@ -12,7 +12,7 @@ If my understanding is correct, the commands will update the in memory, live ISO
 Notes and potentially scripts for installing GNU Guix
 
 First pull the files from this repo
-  - nongnu-channels.scm
+  - nongnu-channels.scm https://github.com/montyquick/guix/blob/92e03e34ae0d85f412360e89045ae7c7841ef457/nongnu-channels.scm#L1-L9
   - substitues.scm
   - <more files to add>
 Next pull the signing-key from [https://substitutes.nonguix.org/signing-key.pub](https://substitutes.nonguix.org/signing-key.pub), the key is not hosted here to avoid issues if the nongnu team change the key. 
