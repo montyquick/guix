@@ -17,7 +17,7 @@ First pull the files from this repo
   - <more files to add>
 Next pull the signing-key from [https://substitutes.nonguix.org/signing-key.pub](https://substitutes.nonguix.org/signing-key.pub), the key is not hosted here to avoid issues if the nongnu team change the key. 
 
-Starting the cow-store creates the guix store for the installation <need to confirm, doesn't work otherwise>
+Starting the cow-store creates the guix store for the installation. The cow-store creates the /gnu/store and is needed before files are pulled. This store is ultimately copied to the system in the final step.
 ```bash
 herd start cow-store
 ```
