@@ -33,5 +33,6 @@ guix describe
 ```
 Follow the on screen message to update the GUIX_PROFILE
 ```bash
-echo 'GUIX_PROFILE=/root/.config/guix/current
+echo 'GUIX_PROFILE=/root/.config/guix/current' >> ~/.bash_profile
+source ~/.bash_profile
 ```
