@@ -15,7 +15,8 @@ First pull the files from this repo
   - nongnu-channels.scm https://github.com/montyquick/guix/blob/92e03e34ae0d85f412360e89045ae7c7841ef457/nongnu-channels.scm#L1-L9
 Renaming the nongnu-channels.scm to channels.scm is advised at somepoint, as it is required for the life of the system. 
   - substitues.scm
-  - config.scm 
+  - example-config.scm
+ 
 Next pull the signing-key from [https://substitutes.nonguix.org/signing-key.pub](https://substitutes.nonguix.org/signing-key.pub), the key is not hosted here to avoid issues if the nongnu team change the key. 
 
 Starting the cow-store creates the guix store for the installation. The cow-store creates the /gnu/store and is needed before files are pulled. This store is ultimately copied to the system in the final step.
