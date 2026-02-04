@@ -1,4 +1,4 @@
-# guix
+# GNU Guix
 
 This will be an attempt to explain how to get an installed system for the Official GNU Guix installer ISO with a Linux kernel
 
@@ -7,7 +7,7 @@ This is not that type of project. I'm not interested in maintaining an ISO.
 
 The basic experiment is - can you take the GNU Guix ISO, add a channels file, edit the config.scm and use guix commands to install everything - I think so.
 
-If my understanding is correct, the commands will update the in memory, live ISO version of GNU Guix, and then it will be applied to the mounted drives.
+If my understanding is correct, the commands will update the in memory, live ISO version of GNU Guix, and then apply it to the mounted drives.
 
 Notes and potentially scripts for installing GNU Guix
 
