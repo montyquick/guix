@@ -40,6 +40,3 @@
                                      (device (uuid "" 
                                              `ext4))
                                      (type "ext4")) %base-file-systems)))
-  
-  
-)
