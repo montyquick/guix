@@ -1,8 +1,3 @@
-
-
-
-
-
 (services (modify-services %desktop-services
              (guix-service-type config => (guix-configuration
                (inherit config)
