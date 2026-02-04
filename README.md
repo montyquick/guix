@@ -27,11 +27,11 @@ Get guix to update the channel data, a guix describe command first will show 1 c
 ```bash
 guix pull -C nongnu-channels.scm
 ```
-After the pull, a re-run of guix describe should show 2 channels, guix.gnu.org and nonguix.org
+After the pull, a re-run of guix describe should show 2 channels, guix and nonguix
 ```bash
 guix describe
 ```
 Follow the on screen message to update the GUIX_PROFILE
 ```bash
-echo 'GUIX_PROFILE=/root/
+echo 'GUIX_PROFILE=/root/.config/guix/current
 ```
