@@ -15,7 +15,7 @@ First pull the files from this repo
   - nongnu-channels.scm https://github.com/montyquick/guix/blob/92e03e34ae0d85f412360e89045ae7c7841ef457/nongnu-channels.scm#L1-L9
 Renaming the nongnu-channels.scm to channels.scm is advised at somepoint, as it is required for the life of the system. 
   - substitutes.scm https://github.com/montyquick/guix/blob/d5decc2a4be6283d4dbecd4bfe0d7f538529cfe4/substitutes.scm#L1-L8
-  - example-config.scm https://github.com/montyquick/guix/blob/5452d9c73acd7b96e1e20e22f8d55cf50e94a742/example-config.scm#L1-L42
+  - example-config.scm https://github.com/montyquick/guix/blob/fd2bde090495788b443213ac7fc948d5e376c2ce/example-config.scm#L1-L42
  
 Next pull the signing-key from [https://substitutes.nonguix.org/signing-key.pub](https://substitutes.nonguix.org/signing-key.pub), the key is not hosted here to avoid issues if the nongnu team change the key. 
 
