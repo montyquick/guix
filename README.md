@@ -5,6 +5,20 @@ This will be an attempt to explain how to get an installed system for the Offici
 There are many other attempts at this on Github, however (of the ones I've seen) they attempt to create an ISO to get the system installed.
 This is not that type of project. I'm not interested in maintaining an ISO.
 
+The long version is to deploy Debian or other distribution with a minimal installation. It doesn't need to be a desktop, a server install is fine.
+The drive setup when using 1 hard drive will be a little odd. There is hope to use a live ISO for this but the success rate in not very high - to be explained later.
+The bootstrap Linux - Debian or other will need to be partitioned in a way to allow Guix to boot after installation - hence if a live ISO becomes successful it will be easier.
+
+- More to come.
+
+Download the install script from guix.gnu.org - [Binary Installation](https://guix.gnu.org/manual/1.5.0/en/html_node/Binary-Installation.html)
+```bash
+cd /tmp
+wget https://guix.gnu.org/guix-install.sh
+chmod +x guix-install.sh
+./guix-install.sh
+```
+After Guix is installed, the following actions can be taken
 The basic experiment is - can you take the GNU Guix ISO, add a channels file, edit the config.scm and use guix commands to install everything - I think so.
 
 If my understanding is correct, the commands will update the in memory, live ISO version of GNU Guix, and then apply it to the mounted drives.
