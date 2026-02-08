@@ -32,11 +32,13 @@
    
    (bootloader (bootloader-configuration
                   (bootloader grub-bootloader)
-                  (targets (list "/dev/sda"))
-                  (keyboard-layout keyboard layout)))
+                  ;;(bootloader grub-efi-bootloader)
+                (targets (list "/dev/sda"))
+                ;;(targets (list "/boot/efi"))
+                  (keyboard-layout keyboard-layout)))
    (swap-devices (list (swap-space 
                          (target (uuid "")))))
    (file-systems (cons* (file-system (mount-point "/")
-                                     (device (uuid "" 
+                                     (device (uuid "ROOT_UUID_HERE" 
                                              `ext4))
                                      (type "ext4")) %base-file-systems)))
